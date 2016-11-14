@@ -18,3 +18,9 @@ const data = [
 />
 
 ```
+
+## TODO
+
+Remove reactstrap and moment dependencies
+Make CellTypes generic and overridable
+Write tests and documentation
