@@ -1,0 +1,24 @@
+
+.headerFilter {
+  width: auto;
+  /*position: relative;*/
+  & .title {
+    float: left;
+  }
+  & .icons {
+    cursor: pointer;
+    float: right;
+  }
+}
+.filterBox {
+  lost-utility: clearfix;
+  position: absolute;
+  top: 140px;
+  border: 1px solid;
+  padding: 5px 10px;
+  background-color: #fff;
+
+  & input[type=checkbox] {
+    margin-right: 0.5rem;
+  }
+}
